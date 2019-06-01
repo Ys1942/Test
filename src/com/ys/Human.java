@@ -6,6 +6,7 @@ public class Human extends Animal {
 //        super(name, age);
 //    }
 
+    //这里也在本地做了修改
     public Human(String name, int age, String country) {
         super(name, age);
         this.country = country;
