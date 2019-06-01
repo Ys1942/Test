@@ -11,10 +11,12 @@ public class Animal implements Talking{
         this.age = age;
     }
 
+    //这里在本地做了第二次修改，第二个commit
     public String getName() {
         return name;
     }
 
+    //这里也是本地第二次修改
     public void setName(String name) {
         this.name = name;
     }
